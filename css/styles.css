@@ -1,0 +1,76 @@
+:root {
+    --background-color: #ECECEC;
+    --background-color-team: #F5F4FA;
+    --background-hero-footer: #2F303A;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --text-color: #757575;
+    --logo-color: #000000;
+    --primary-white-color: #FFFFFF;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--title-text-color);
+}
+/* Хедер сайту */
+/* Logo */
+.logo {
+    color: var(--logo-color);
+}
+.logo-web{
+color: var(--accent-color);
+}
+.logo:hover {
+    color: var(--accent-color);
+}
+/* Site nav */
+.list{
+    list-style: none;
+}
+.link{
+    color: var(--title-text-color);
+}
+.link:hover,
+.link:focus{
+color: var(--accent-color);
+}
+/* Contacts */
+.contact .mail-tel:hover
+{
+    color: var(--accent-color);
+}
+.contact .mail-tel
+{
+    color: var(--text-color);
+}
+/* Hero */
+.hero-title{
+    color: var(--primary-white-color);
+}
+.hero .button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border: var(--accent-color);
+}
+/* Переваги */
+.benefits{
+    color: var(--background-color)
+}
+.benefit .description{
+    color: var(--text-color);
+}
+/* Чим ми займаємось */
+/* Наша команда */
+.position{
+    color: var(--text-color);
+}
+/* Footer */
+.footer .mail-tel{
+color: rgba(255, 255, 255, 0.6);
+}
+.footer .adress{
+    color: var(--primary-white-color);
+}
+
+
+
