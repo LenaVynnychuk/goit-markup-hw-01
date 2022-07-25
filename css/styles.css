@@ -20,7 +20,8 @@ body {
 .logo-web{
 color: var(--accent-color);
 }
-.logo:hover {
+.logo:hover
+.logo:focus {
     color: var(--accent-color);
 }
 /* Site nav */
